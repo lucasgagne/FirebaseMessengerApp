@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1177B2052A1205BE005034C6 /* chatLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177B2042A1205BE005034C6 /* chatLogView.swift */; };
+		117F59D32A05C3D80019B356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 117F59D22A05C3D80019B356 /* GoogleService-Info.plist */; };
+		11834E182A05B93500C17708 /* RSA_messenger_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11834E172A05B93500C17708 /* RSA_messenger_2App.swift */; };
+		11834E1A2A05B93500C17708 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11834E192A05B93500C17708 /* RegisterView.swift */; };
+		11834E1C2A05B93600C17708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11834E1B2A05B93600C17708 /* Assets.xcassets */; };
+		11834E202A05B93600C17708 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11834E1F2A05B93600C17708 /* Preview Assets.xcassets */; };
+		11834E2A2A05B93700C17708 /* RSA_messenger_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11834E292A05B93700C17708 /* RSA_messenger_2Tests.swift */; };
+		11834E342A05B93700C17708 /* RSA_messenger_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11834E332A05B93700C17708 /* RSA_messenger_2UITests.swift */; };
+		11834E362A05B93700C17708 /* RSA_messenger_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11834E352A05B93700C17708 /* RSA_messenger_2UITestsLaunchTests.swift */; };
+		11C0AC1C2A0764C300672F91 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0AC1B2A0764C300672F91 /* MessageView.swift */; };
+		11C0AC1E2A08C87000672F91 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0AC1D2A08C87000672F91 /* ImagePicker.swift */; };
+		11C0AC212A08D91F00672F91 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 11C0AC202A08D91F00672F91 /* FirebaseAuth */; };
+		11C0AC232A08D91F00672F91 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 11C0AC222A08D91F00672F91 /* FirebaseFirestore */; };
+		11C0AC252A08D91F00672F91 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 11C0AC242A08D91F00672F91 /* FirebaseStorage */; };
+		11C0AC292A09AA0800672F91 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0AC282A09AA0800672F91 /* MainMessagesView.swift */; };
+		11C0AC2B2A09FAF600672F91 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0AC2A2A09FAF600672F91 /* FirebaseManager.swift */; };
+		11C0AC2E2A0A036C00672F91 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 11C0AC2D2A0A036C00672F91 /* SDWebImageSwiftUI */; };
+		11C0AC322A0A364A00672F91 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0AC312A0A364A00672F91 /* ChatUser.swift */; };
+		11C0AC342A1041C000672F91 /* newMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C0AC332A1041C000672F91 /* newMessageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11834E262A05B93700C17708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11834E0C2A05B93500C17708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11834E132A05B93500C17708;
+			remoteInfo = "RSA messenger 2";
+		};
+		11834E302A05B93700C17708 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11834E0C2A05B93500C17708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11834E132A05B93500C17708;
+			remoteInfo = "RSA messenger 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1177B2042A1205BE005034C6 /* chatLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatLogView.swift; sourceTree = "<group>"; };
+		117F59D22A05C3D80019B356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11834E142A05B93500C17708 /* RSA messenger 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSA messenger 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11834E172A05B93500C17708 /* RSA_messenger_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_messenger_2App.swift; sourceTree = "<group>"; };
+		11834E192A05B93500C17708 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		11834E1B2A05B93600C17708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11834E1D2A05B93600C17708 /* RSA_messenger_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RSA_messenger_2.entitlements; sourceTree = "<group>"; };
+		11834E1F2A05B93600C17708 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11834E252A05B93700C17708 /* RSA messenger 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSA messenger 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11834E292A05B93700C17708 /* RSA_messenger_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_messenger_2Tests.swift; sourceTree = "<group>"; };
+		11834E2F2A05B93700C17708 /* RSA messenger 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSA messenger 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11834E332A05B93700C17708 /* RSA_messenger_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_messenger_2UITests.swift; sourceTree = "<group>"; };
+		11834E352A05B93700C17708 /* RSA_messenger_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_messenger_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11C0AC1B2A0764C300672F91 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		11C0AC1D2A08C87000672F91 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		11C0AC282A09AA0800672F91 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
+		11C0AC2A2A09FAF600672F91 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		11C0AC312A0A364A00672F91 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		11C0AC332A1041C000672F91 /* newMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newMessageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11834E112A05B93500C17708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C0AC2E2A0A036C00672F91 /* SDWebImageSwiftUI in Frameworks */,
+				11C0AC212A08D91F00672F91 /* FirebaseAuth in Frameworks */,
+				11C0AC232A08D91F00672F91 /* FirebaseFirestore in Frameworks */,
+				11C0AC252A08D91F00672F91 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11834E222A05B93700C17708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11834E2C2A05B93700C17708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11834E0B2A05B93500C17708 = {
+			isa = PBXGroup;
+			children = (
+				11834E162A05B93500C17708 /* RSA messenger 2 */,
+				11834E282A05B93700C17708 /* RSA messenger 2Tests */,
+				11834E322A05B93700C17708 /* RSA messenger 2UITests */,
+				11834E152A05B93500C17708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11834E152A05B93500C17708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11834E142A05B93500C17708 /* RSA messenger 2.app */,
+				11834E252A05B93700C17708 /* RSA messenger 2Tests.xctest */,
+				11834E2F2A05B93700C17708 /* RSA messenger 2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11834E162A05B93500C17708 /* RSA messenger 2 */ = {
+			isa = PBXGroup;
+			children = (
+				11834E172A05B93500C17708 /* RSA_messenger_2App.swift */,
+				11C0AC1B2A0764C300672F91 /* MessageView.swift */,
+				1177B2042A1205BE005034C6 /* chatLogView.swift */,
+				11C0AC332A1041C000672F91 /* newMessageView.swift */,
+				11C0AC2A2A09FAF600672F91 /* FirebaseManager.swift */,
+				11C0AC302A0A363E00672F91 /* Model */,
+				11C0AC1D2A08C87000672F91 /* ImagePicker.swift */,
+				11C0AC272A09A9F400672F91 /* MainMessages */,
+				11834E192A05B93500C17708 /* RegisterView.swift */,
+				117F59D22A05C3D80019B356 /* GoogleService-Info.plist */,
+				11834E1B2A05B93600C17708 /* Assets.xcassets */,
+				11834E1D2A05B93600C17708 /* RSA_messenger_2.entitlements */,
+				11834E1E2A05B93600C17708 /* Preview Content */,
+			);
+			path = "RSA messenger 2";
+			sourceTree = "<group>";
+		};
+		11834E1E2A05B93600C17708 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11834E1F2A05B93600C17708 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11834E282A05B93700C17708 /* RSA messenger 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11834E292A05B93700C17708 /* RSA_messenger_2Tests.swift */,
+			);
+			path = "RSA messenger 2Tests";
+			sourceTree = "<group>";
+		};
+		11834E322A05B93700C17708 /* RSA messenger 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				11834E332A05B93700C17708 /* RSA_messenger_2UITests.swift */,
+				11834E352A05B93700C17708 /* RSA_messenger_2UITestsLaunchTests.swift */,
+			);
+			path = "RSA messenger 2UITests";
+			sourceTree = "<group>";
+		};
+		11C0AC272A09A9F400672F91 /* MainMessages */ = {
+			isa = PBXGroup;
+			children = (
+				11C0AC282A09AA0800672F91 /* MainMessagesView.swift */,
+			);
+			path = MainMessages;
+			sourceTree = "<group>";
+		};
+		11C0AC302A0A363E00672F91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11C0AC312A0A364A00672F91 /* ChatUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11834E132A05B93500C17708 /* RSA messenger 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11834E392A05B93700C17708 /* Build configuration list for PBXNativeTarget "RSA messenger 2" */;
+			buildPhases = (
+				11834E102A05B93500C17708 /* Sources */,
+				11834E112A05B93500C17708 /* Frameworks */,
+				11834E122A05B93500C17708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSA messenger 2";
+			packageProductDependencies = (
+				11C0AC202A08D91F00672F91 /* FirebaseAuth */,
+				11C0AC222A08D91F00672F91 /* FirebaseFirestore */,
+				11C0AC242A08D91F00672F91 /* FirebaseStorage */,
+				11C0AC2D2A0A036C00672F91 /* SDWebImageSwiftUI */,
+			);
+			productName = "RSA messenger 2";
+			productReference = 11834E142A05B93500C17708 /* RSA messenger 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11834E242A05B93700C17708 /* RSA messenger 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11834E3C2A05B93700C17708 /* Build configuration list for PBXNativeTarget "RSA messenger 2Tests" */;
+			buildPhases = (
+				11834E212A05B93700C17708 /* Sources */,
+				11834E222A05B93700C17708 /* Frameworks */,
+				11834E232A05B93700C17708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11834E272A05B93700C17708 /* PBXTargetDependency */,
+			);
+			name = "RSA messenger 2Tests";
+			productName = "RSA messenger 2Tests";
+			productReference = 11834E252A05B93700C17708 /* RSA messenger 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11834E2E2A05B93700C17708 /* RSA messenger 2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11834E3F2A05B93700C17708 /* Build configuration list for PBXNativeTarget "RSA messenger 2UITests" */;
+			buildPhases = (
+				11834E2B2A05B93700C17708 /* Sources */,
+				11834E2C2A05B93700C17708 /* Frameworks */,
+				11834E2D2A05B93700C17708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11834E312A05B93700C17708 /* PBXTargetDependency */,
+			);
+			name = "RSA messenger 2UITests";
+			productName = "RSA messenger 2UITests";
+			productReference = 11834E2F2A05B93700C17708 /* RSA messenger 2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11834E0C2A05B93500C17708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					11834E132A05B93500C17708 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					11834E242A05B93700C17708 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 11834E132A05B93500C17708;
+					};
+					11834E2E2A05B93700C17708 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 11834E132A05B93500C17708;
+					};
+				};
+			};
+			buildConfigurationList = 11834E0F2A05B93500C17708 /* Build configuration list for PBXProject "RSA messenger 2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11834E0B2A05B93500C17708;
+			packageReferences = (
+				11C0AC1F2A08D91F00672F91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				11C0AC2C2A0A036C00672F91 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 11834E152A05B93500C17708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11834E132A05B93500C17708 /* RSA messenger 2 */,
+				11834E242A05B93700C17708 /* RSA messenger 2Tests */,
+				11834E2E2A05B93700C17708 /* RSA messenger 2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11834E122A05B93500C17708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11834E202A05B93600C17708 /* Preview Assets.xcassets in Resources */,
+				11834E1C2A05B93600C17708 /* Assets.xcassets in Resources */,
+				117F59D32A05C3D80019B356 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11834E232A05B93700C17708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11834E2D2A05B93700C17708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11834E102A05B93500C17708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1177B2052A1205BE005034C6 /* chatLogView.swift in Sources */,
+				11C0AC322A0A364A00672F91 /* ChatUser.swift in Sources */,
+				11C0AC342A1041C000672F91 /* newMessageView.swift in Sources */,
+				11C0AC2B2A09FAF600672F91 /* FirebaseManager.swift in Sources */,
+				11C0AC1C2A0764C300672F91 /* MessageView.swift in Sources */,
+				11C0AC1E2A08C87000672F91 /* ImagePicker.swift in Sources */,
+				11834E1A2A05B93500C17708 /* RegisterView.swift in Sources */,
+				11834E182A05B93500C17708 /* RSA_messenger_2App.swift in Sources */,
+				11C0AC292A09AA0800672F91 /* MainMessagesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11834E212A05B93700C17708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11834E2A2A05B93700C17708 /* RSA_messenger_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11834E2B2A05B93700C17708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11834E362A05B93700C17708 /* RSA_messenger_2UITestsLaunchTests.swift in Sources */,
+				11834E342A05B93700C17708 /* RSA_messenger_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11834E272A05B93700C17708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11834E132A05B93500C17708 /* RSA messenger 2 */;
+			targetProxy = 11834E262A05B93700C17708 /* PBXContainerItemProxy */;
+		};
+		11834E312A05B93700C17708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11834E132A05B93500C17708 /* RSA messenger 2 */;
+			targetProxy = 11834E302A05B93700C17708 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11834E372A05B93700C17708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11834E382A05B93700C17708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		11834E3A2A05B93700C17708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RSA messenger 2/RSA_messenger_2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RSA messenger 2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbta.RSA-messenger-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11834E3B2A05B93700C17708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "RSA messenger 2/RSA_messenger_2.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RSA messenger 2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbta.RSA-messenger-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11834E3D2A05B93700C17708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbta.RSA-messenger-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA messenger 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RSA messenger 2";
+			};
+			name = Debug;
+		};
+		11834E3E2A05B93700C17708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbta.RSA-messenger-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA messenger 2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RSA messenger 2";
+			};
+			name = Release;
+		};
+		11834E402A05B93700C17708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbta.RSA-messenger-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RSA messenger 2";
+			};
+			name = Debug;
+		};
+		11834E412A05B93700C17708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbta.RSA-messenger-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RSA messenger 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11834E0F2A05B93500C17708 /* Build configuration list for PBXProject "RSA messenger 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11834E372A05B93700C17708 /* Debug */,
+				11834E382A05B93700C17708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11834E392A05B93700C17708 /* Build configuration list for PBXNativeTarget "RSA messenger 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11834E3A2A05B93700C17708 /* Debug */,
+				11834E3B2A05B93700C17708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11834E3C2A05B93700C17708 /* Build configuration list for PBXNativeTarget "RSA messenger 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11834E3D2A05B93700C17708 /* Debug */,
+				11834E3E2A05B93700C17708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11834E3F2A05B93700C17708 /* Build configuration list for PBXNativeTarget "RSA messenger 2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11834E402A05B93700C17708 /* Debug */,
+				11834E412A05B93700C17708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11C0AC1F2A08D91F00672F91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		11C0AC2C2A0A036C00672F91 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11C0AC202A08D91F00672F91 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11C0AC1F2A08D91F00672F91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		11C0AC222A08D91F00672F91 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11C0AC1F2A08D91F00672F91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		11C0AC242A08D91F00672F91 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11C0AC1F2A08D91F00672F91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		11C0AC2D2A0A036C00672F91 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11C0AC2C2A0A036C00672F91 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11834E0C2A05B93500C17708 /* Project object */;
+}
